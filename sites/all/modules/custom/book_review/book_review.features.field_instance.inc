@@ -124,7 +124,7 @@ function book_review_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_jon_s_rating',
-    'label' => 'Jon\'s Rating',
+    'label' => 'Rating',
     'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -143,7 +143,7 @@ function book_review_field_default_field_instances() {
   t('Author');
   t('Enter a rating here!');
   t('Enter author name here!');
-  t('Jon\'s Rating');
+  t('Rating');
   t('Review');
   t('This is where the review body goes');
 

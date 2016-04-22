@@ -1,3 +1,14 @@
+User logins:
+
+Administrator:
+Username: oneadmin
+Password: oneadmin
+
+Reviewer:
+Username: reviewer
+Password: reviewer
+
+
 
 CONTENTS OF THIS FILE
 ---------------------
