@@ -1,0 +1,45 @@
+a span {
+  font-size: 56px;
+  color: #1e00ff;
+  font-family: 'Arial Black',Sans-Serif;
+}
+
+#name-and-slogan #site-slogan {
+  font-size: 22px;
+  font-family: Arial, Helvetica,Sans-Serif;
+}
+
+h2 a {
+  font-family: 'Arial Black',Sans-Serif;
+}
+
+.field-item p {
+  font-family: Arial, Helvetica,Sans-Serif;
+}
+
+.region #block-views-new-books-block {
+  font-family: 'Arial Black',Sans-Serif;
+  text-decoration: underline;
+  text-align: center;
+  background-color: #fafa00;
+  border-top-color: #ff3bff;
+  border-right-color: #ff3bff;
+  border-bottom-color: #ff3bff;
+  border-left-color: #ff3bff;
+}
+
+.region #block-block-1 {
+  background-color: #ffff00;
+  font-family: 'Arial Black',Sans-Serif;
+  text-align: center;
+}
+
+#page #main-wrapper {
+  background-color: #ffd500;
+}
+
+li a {
+  color: #000000;
+  font-family: 'Arial Black',Sans-Serif;
+}
+
