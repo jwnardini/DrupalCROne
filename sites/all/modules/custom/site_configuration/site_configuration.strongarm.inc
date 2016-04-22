@@ -14,7 +14,7 @@ function site_configuration_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_frontpage';
-  $strongarm->value = 'node';
+  $strongarm->value = 'node/1';
   $export['site_frontpage'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -28,7 +28,7 @@ function site_configuration_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_slogan';
-  $strongarm->value = 'Because Jon\'s opinion is more important than yours';
+  $strongarm->value = 'Because Jon\'s opinion is more important than your opinion';
   $export['site_slogan'] = $strongarm;
 
   $strongarm = new stdClass();
