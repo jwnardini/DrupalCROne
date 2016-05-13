@@ -48,7 +48,7 @@ function book_review_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'body',
-    'label' => 'Review',
+    'label' => 'Review Body',
     'required' => 1,
     'settings' => array(
       'display_summary' => 1,
@@ -63,7 +63,7 @@ function book_review_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 3,
+      'weight' => 4,
     ),
   );
 
@@ -96,7 +96,7 @@ function book_review_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_author',
-    'label' => 'Author',
+    'label' => 'Book Author',
     'required' => 1,
     'settings' => array(
       'text_processing' => 0,
@@ -212,18 +212,18 @@ function book_review_field_default_field_instances() {
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_select',
-      'weight' => 4,
+      'weight' => 3,
     ),
   );
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Author');
+  t('Book Author');
   t('Book Cover');
   t('Enter a rating here!');
   t('Enter author name here!');
   t('Rating');
-  t('Review');
+  t('Review Body');
   t('This is where the review body goes');
 
   return $field_instances;
